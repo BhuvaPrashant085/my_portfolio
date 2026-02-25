@@ -374,6 +374,24 @@ img {
     display: block;
     transition: transform 0.3s ease;
 }
+/* About Section Styling */
+.about__container {
+  display: flex;               /* Makes it a flex container */
+  align-items: center;         /* Vertically center the items */
+  justify-content: space-between; /* Place space between the text and image */
+  text-align: left;            /* Align the text to the left */
+  gap: 20px;                   /* Optional: Adds space between text and image */
+}
+
+.about__img {
+  flex-shrink: 0;              /* Prevents the image from shrinking */
+  width: 40%;                  /* Adjust the size of the image (can be customized) */
+}
+
+.about__text {
+  flex-grow: 1;                /* Allow text to take available space */
+  padding-right: 20px;         /* Optional: Adds padding to the right side of the text */
+}
 
 
 .work__img img:hover {
