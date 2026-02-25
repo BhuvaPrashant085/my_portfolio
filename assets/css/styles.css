@@ -217,7 +217,9 @@ img {
   .home__img {
     width: 200px;
     margin: 0 auto;
-    position:relative;
+    position:fixed;
+    left:150px;
+    top:-40px;
     
   }
 
