@@ -256,6 +256,8 @@ img {
 .home__blob-img {
   position:fixed;
   width: 100%;
+  top:-50px;
+  left:30%;
   height: 100%;
   object-fit: cover;
 }
